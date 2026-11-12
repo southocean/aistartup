@@ -1,0 +1,52 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="noindex, nofollow, noarchive, nosnippet, noimageindex, noai, noimageai">
+<meta name="googlebot" content="noindex, nofollow">
+<title>AI Money Lab</title>
+<meta name="description" content="A private thought experiment: which ways of making money with AI survive market research and viability tests.">
+<link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🧪</text></svg>">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header class="hero">
+  <div class="wrap">
+    <p class="kicker">Thought experiment · started 13 Nov 2026 · <span id="updated"></span></p>
+    <h1>AI Money Lab</h1>
+    <p class="lede">Every idea for making money with AI goes through the same gauntlet: desk research, competitors, real conversations, a smoke test. If one survives, it should be able to make money.</p>
+  </div>
+</header>
+
+<nav class="nav" aria-label="Sections">
+  <div class="wrap navin">
+    <a href="#board">Board</a><a href="#gauntlet">Gauntlet</a><a href="#ideas">Ideas</a>
+  </div>
+</nav>
+
+<main class="wrap">
+  <section id="board">
+    <h2>Board</h2>
+    <p class="muted">Sorted by total score. The bar shows how far each idea has made it through the gauntlet.</p>
+    <div class="tablewrap"><table class="board" id="boardTable"></table></div>
+  </section>
+
+  <section id="gauntlet">
+    <h2>The gauntlet</h2>
+    <p class="muted">An idea moves up a stage only when it passes that stage's test. Most ideas should die here, and that's the point.</p>
+    <ol class="stages" id="stages"></ol>
+    <h3>Rubric (1–5 each)</h3>
+    <dl class="rubric" id="rubric"></dl>
+  </section>
+
+  <section id="ideas">
+    <h2>Ideas</h2>
+    <div id="ideaList"></div>
+  </section>
+</main>
+
+<footer class="wrap foot">Private working notes. Not indexed, not advice.</footer>
+<script src="app.js"></script>
+</body>
+</html>

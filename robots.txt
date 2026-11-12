@@ -1,0 +1,27 @@
+# Private working notes. Please don't index or train on this site.
+# NOTE: crawlers only read robots.txt at the root of a host. On GitHub Pages
+# (southocean.github.io/aistartup/) this file is NOT read. The root copy must live in
+# the southocean/southocean.github.io repo; see README.md.
+
+User-agent: *
+Disallow: /
+
+# AI crawlers, named explicitly in case they ignore the wildcard
+User-agent: GPTBot
+User-agent: ChatGPT-User
+User-agent: OAI-SearchBot
+User-agent: ClaudeBot
+User-agent: Claude-User
+User-agent: Claude-SearchBot
+User-agent: anthropic-ai
+User-agent: Google-Extended
+User-agent: Applebot-Extended
+User-agent: CCBot
+User-agent: PerplexityBot
+User-agent: Perplexity-User
+User-agent: Bytespider
+User-agent: Meta-ExternalAgent
+User-agent: Amazonbot
+User-agent: cohere-ai
+User-agent: Diffbot
+Disallow: /

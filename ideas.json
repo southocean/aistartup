@@ -1,0 +1,152 @@
+{
+  "updated": "2026-11-13",
+  "rubric": [
+    { "key": "pain",     "label": "Real pain",        "help": "Do people already spend money or hours on this problem today?" },
+    { "key": "payer",    "label": "Clear payer",      "help": "Can you name who pays, and roughly how much?" },
+    { "key": "edge",     "label": "Your edge",        "help": "What do you have that a random competitor doesn't (skills, access, network, taste)?" },
+    { "key": "room",     "label": "Room in market",   "help": "5 = wide open, 1 = crowded with cheap or free substitutes." },
+    { "key": "speed",    "label": "Speed to first krona", "help": "5 = could get paid within a month, 1 = a year or more." },
+    { "key": "fit",      "label": "Life fit",         "help": "Does it suit your job, the Vietnam stint, your writing and energy?" }
+  ],
+  "stages": [
+    { "id": 1, "name": "Hunch",        "test": "Write the one-sentence pitch: who, what pain, what they pay." },
+    { "id": 2, "name": "Desk research", "test": "Competitors, prices and substitutes mapped. Rubric scored honestly." },
+    { "id": 3, "name": "Conversations", "test": "Five real potential buyers talked to. At least two say 'I'd pay for that' unprompted." },
+    { "id": 4, "name": "Smoke test",   "test": "A concrete offer with a price is put in front of people (page, DM, pitch). Someone tries to buy." },
+    { "id": 5, "name": "First money",  "test": "One paying customer, at a price that isn't a favour." },
+    { "id": 6, "name": "Survived",     "test": "Repeatable: a second and third customer came without heroic effort." }
+  ],
+  "ideas": [
+    {
+      "id": "ai-adoption",
+      "name": "AI adoption for small teams",
+      "pitch": "Workshops, workflow redesign and small internal tools for 5–50 person companies that pay for AI tools but don't use them well.",
+      "stage": 2,
+      "status": "leading",
+      "scores": { "pain": 4, "payer": 4, "edge": 3, "room": 2, "speed": 4, "fit": 4 },
+      "verdict": "Crowded at both ends, thinner in the middle. Big firms chase enterprise budgets and n8n freelancers sell cheap one-off automations. Hands-on help for a small, non-tech team is less contested, but those teams have smaller budgets and are harder to reach.",
+      "edge": [
+        "Real building track record: CV app, review tools, footage pipelines, event sites",
+        "Video production and events background, a niche you can speak to credibly",
+        "Swedish and Vietnamese, plus access to Vietnamese-Swedish business owners",
+        "Your own workplace can be the first case study"
+      ],
+      "competitors": [
+        { "tier": "Big consultancies", "who": "Accenture, Deloitte, PwC, EY, KPMG, Capgemini/Sogeti, Knowit, Netlight, Tietoevry", "note": "Enterprise budgets (hundreds of thousands of SEK and up). Rarely bother with a 15-person company." },
+        { "tier": "Stockholm AI boutiques", "who": "Alice Labs, PhaseOne.ai, Lampo AI Automation, Opsio, Nytta AI (Växjö)", "note": "A data vendor counts about 192 AI consulting firms based in Sweden (Aug 2026), with Stockholm the largest hub. Several target SMEs directly." },
+        { "tier": "Training providers", "who": "NobleProg, Active Solution, Hyper Island and Berghs courses, Microsoft Copilot partners", "note": "Workshops and courses, often generic and not built around the client's own tasks." },
+        { "tier": "Freelancers and automation agencies", "who": "Upwork, Fiverr, n8n/Make specialists", "note": "AI & ML is one of Upwork's most-bid subcategories. n8n specialists charge roughly $40–100/h. Price pressure is strong here." },
+        { "tier": "Free substitutes", "who": "YouTube, an internal 'AI champion', the vendors' own onboarding", "note": "The real competitor for small firms is often 'we'll figure it out ourselves'." }
+      ],
+      "pricing": "Swedish AI consultants are typically quoted at 1,200–2,500 SEK/h (Opsio). Tool seats cost roughly 200–700 SEK per user per month. A half-day team workshop is the easiest first sale.",
+      "risks": [
+        "Mostly a sales job: meetings, follow-ups, proposals",
+        "Small firms hesitate to spend money; the gap is partly a gap because it's hard to earn there",
+        "Conflict of interest or contract terms with your current employer: check before selling on the side",
+        "The tools change monthly, so material needs constant refreshing"
+      ],
+      "next": "Run one internal pilot at work: pick one team and one painful workflow, measure hours before and after, and write it up as a one-page case study.",
+      "sources": [
+        { "label": "RevenueBase: AI consulting firms in Sweden", "url": "https://revenuebase.ai/companies/ai-consulting-firms/sweden" },
+        { "label": "Opsio: AI services for companies in Sweden (pricing)", "url": "https://opsiocloud.com/sv/blogs/ai-tjanster-foretag-sverige/" },
+        { "label": "Alice Labs: AI consulting Stockholm", "url": "https://alicelabs.ai/en/ai-consulting-stockholm" },
+        { "label": "Alice Labs: AI training prices in Sweden 2026", "url": "https://alicelabs.ai/sv/insights/ai-utbildning-priser-sverige-2026" },
+        { "label": "Lampo AI Automation (Sortlist)", "url": "https://www.sortlist.co.uk/agency/lampo-ai-automation" },
+        { "label": "Nytta AI (Clutch)", "url": "https://clutch.co/profile/nytta-ai" },
+        { "label": "NobleProg: Generative AI consulting Sweden", "url": "https://www.nobleprog.se/consulting/generative-ai" },
+        { "label": "GigRadar: Upwork market report 2026", "url": "https://gigradar.io/blog/upwork-market-report-2026" },
+        { "label": "Layer3 Labs: Is an AI automation agency worth it?", "url": "https://www.layer3labs.io/guides/is-an-ai-automation-agency-worth-it" }
+      ]
+    },
+    {
+      "id": "footage-tool",
+      "name": "Footage logger for wedding videographers",
+      "pitch": "Upload a day of clips and get a searchable inventory, transcripts of speeches and vows, and a beat-timed rough cut list.",
+      "stage": 1,
+      "status": "promising",
+      "scores": { "pain": 4, "payer": 4, "edge": 4, "room": 3, "speed": 2, "fit": 3 },
+      "verdict": "Strong edge: you've already built the core for two wedding films. Needs competitor research, since editing suites are adding AI features fast.",
+      "edge": ["Working pipeline from the Jennie & Gunnar and Emma projects", "You understand how an editor actually works through a wedding day"],
+      "competitors": [],
+      "pricing": "",
+      "risks": ["Premiere, DaVinci Resolve and Descript may ship the same features as part of their own products", "Video upload and processing costs"],
+      "next": "Desk research: what do Premiere, Resolve, Descript and the AI-first editing tools already do? Then ask three videographers how they log a wedding today.",
+      "sources": []
+    },
+    {
+      "id": "subtitle-tool",
+      "name": "Burned-in subtitles to editable .srt",
+      "pitch": "Turn a video with hard-coded subtitles back into an editable subtitle file, for indie filmmakers, translators and festival submissions.",
+      "stage": 1,
+      "status": "promising",
+      "scores": { "pain": 3, "payer": 2, "edge": 4, "room": 3, "speed": 3, "fit": 4 },
+      "verdict": "You've already built it once (Tomma Händer). The problem is real but occasional, which may make it better as a free tool that builds an audience than as a product people pay for.",
+      "edge": ["Working ffmpeg + OCR + cleanup pipeline"],
+      "competitors": [],
+      "pricing": "",
+      "risks": ["Low willingness to pay", "Free OCR tools already exist, at lower quality"],
+      "next": "Check existing tools and their quality. Consider releasing it free as an audience-builder.",
+      "sources": []
+    },
+    {
+      "id": "event-sites",
+      "name": "Bespoke event and trip microsites",
+      "pitch": "Memorable private sites for bachelorettes, weddings, reunions and birthdays: schedules, inside jokes, secret gates, slideshows.",
+      "stage": 1,
+      "status": "promising",
+      "scores": { "pain": 2, "payer": 3, "edge": 4, "room": 3, "speed": 4, "fit": 4 },
+      "verdict": "Fun, fast to sell to friends-of-friends, and a strong portfolio. It's a want, not a pain, so it's priced as a gift. It probably won't scale beyond word of mouth.",
+      "edge": ["Emma bachelorette, Trung Thu and the Callback CV as a portfolio"],
+      "competitors": [],
+      "pricing": "",
+      "risks": ["Wedding website builders (Zola, The Knot, Joy) are free", "Every site is custom work, so it's hard to scale"],
+      "next": "Ask everyone who saw the Emma site whether they'd have paid for one, and how much.",
+      "sources": []
+    },
+    {
+      "id": "tet-village",
+      "name": "Tết as a guest in a Vietnamese village",
+      "pitch": "Small groups of westerners spend Tết as guests of a real family in the countryside: wrapping bánh chưng, the market run, lì xì. Like being brought home for midsommar.",
+      "stage": 1,
+      "status": "promising",
+      "scores": { "pain": 2, "payer": 3, "edge": 5, "room": 4, "speed": 2, "fit": 4 },
+      "verdict": "This is access, not an itinerary, and access is what can't be copied. The hard part is keeping it organic: guests, not tourists, with roles to play, paying hosts properly, small groups, saying no often. It only happens once a year, so it's a premium experience, not an income. It doubles as writing material.",
+      "edge": ["Family and village access", "You can brief guests on both cultures", "The festival happens regardless, so it's authentic by default"],
+      "competitors": [],
+      "pricing": "",
+      "risks": ["Feeling commercial ruins it for both hosts and guests", "Once a year, with a hard deadline", "Liability, transport and host-family consent", "Tết is also the most expensive and crowded time to travel"],
+      "next": "Tết 2027 is 6 Feb. Run a free or at-cost pilot with 2–4 friends or colleagues, document it, and ask them afterwards what they would have paid.",
+      "sources": []
+    },
+    {
+      "id": "vn-itineraries",
+      "name": "Custom Vietnam itineraries",
+      "pitch": "Tailored, exclusive itineraries for westerners in or visiting Vietnam.",
+      "stage": 1,
+      "status": "weak",
+      "scores": { "pain": 2, "payer": 2, "edge": 3, "room": 1, "speed": 3, "fit": 3 },
+      "verdict": "AI makes generic itineraries free, and agencies and bloggers already cover this. It only survives as an add-on to something exclusive, like the Tết village.",
+      "edge": ["Local knowledge"],
+      "competitors": [],
+      "pricing": "",
+      "risks": ["ChatGPT is the competitor", "Sales and marketing heavy, which you said is your weak spot"],
+      "next": "Park it. Fold the useful parts into the Tết idea.",
+      "sources": []
+    },
+    {
+      "id": "build-in-public",
+      "name": "Build in public (the viral engine)",
+      "pitch": "Share the weird, specific things you build with AI. The audience becomes the distribution channel for every other idea.",
+      "stage": 1,
+      "status": "enabler",
+      "scores": { "pain": 1, "payer": 1, "edge": 4, "room": 3, "speed": 3, "fit": 4 },
+      "verdict": "Not a business on its own, but it solves the sales problem that every other idea has. Score it as an enabler, not a money-maker.",
+      "edge": ["A backlog of real, shareable builds"],
+      "competitors": [],
+      "pricing": "",
+      "risks": ["Time sink with no guarantee", "Exposure while still employed"],
+      "next": "Pick one platform and one format. Post the drill-beat wedding cut story as the first test.",
+      "sources": []
+    }
+  ]
+}
