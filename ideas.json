@@ -460,7 +460,7 @@
       "id": "ai-seo",
       "name": "AI SEO: getting found by ChatGPT, not just Google",
       "pitch": "Courses and audits that teach small businesses and marketers how to show up in AI answers (ChatGPT, Gemini, Perplexity, Google AI Overviews), also called GEO, generative engine optimization.",
-      "stage": 1,
+      "stage": 2,
       "status": "promising",
       "scores": {
         "pain": 4,
@@ -470,7 +470,7 @@
         "speed": 4,
         "fit": 4
       },
-      "verdict": "The pain is real and measurable: where Google shows an AI summary, clicks to websites drop by roughly 35-60% depending on the study. But English-language GEO courses are already everywhere, from free ones to about $300, and tracking tools start at about $25/month. The field is also young: nobody can yet prove which tactics work, so a course risks selling guesses. The gap after a first search is local: no Swedish-language course or hands-on offer for small Swedish firms turned up. The strongest form may be a fixed-price 'what does ChatGPT say about your business?' audit, sold as an add-on to the AI adoption workshop, with a course built later from what the audits teach.",
+      "verdict": "The pain is real and measurable: where Google shows an AI summary, clicks to websites drop by roughly 35-60% depending on the study. But English-language GEO courses are already everywhere, from free ones to about $300, and tracking tools start at about $25/month. The field is also young: nobody can yet prove which tactics work, so a course risks selling guesses. The gap after a first search is local: no Swedish-language course or hands-on offer for small Swedish firms turned up. The strongest form may be a fixed-price 'what does ChatGPT say about your business?' audit, sold as an add-on to the AI adoption workshop, with a course built later from what the audits teach. First hand audit (5 Stockholm businesses, 3 engines) found something worth showing every owner, but the fixes were mostly basic (publish prices, keep listings consistent), which points to selling the audit and a quarterly re-check rather than a GEO course.",
       "edge": [
         "Swedish, for a local market the English courses don't serve",
         "Pairs naturally with the AI adoption idea: same buyers, same first meeting",
@@ -498,7 +498,10 @@
         "A randomized 2026 study (Agarwal & Sen, not yet peer reviewed) found AI Overviews cut outbound clicks by 39.8%.",
         "Ahrefs (Feb 2026): the top-ranked page gets 58% fewer clicks on keywords that show an AI Overview.",
         "Chartbeat publisher data, as reported: Google search referrals down about 40% year on year (Jul 2025 to Jul 2026).",
-        "Counter-signal: one study (Amsive) found branded searches with an AI Overview get more clicks, not fewer. Being the named brand matters more than ranking."
+        "Counter-signal: one study (Amsive) found branded searches with an AI Overview get more clicks, not fewer. Being the named brand matters more than ranking.",
+        "Own audit (13 Nov 2026), 10 Swedish buyer questions × ChatGPT, Perplexity, Gemini: engines rarely agree. 'Best hairdresser on Södermalm' gave 10 salons with zero overlap; only 2 businesses were named by all three.",
+        "Own audit: firms that publish a fixed price on their site get quoted with it and often listed first (Plumber D, Video studio B, Lilla Ekonomibyrån, Midnatt Media).",
+        "Own audit: a salon with no prices online got 'no price list found, call them' from ChatGPT and an unsourced price list from Gemini. ChatGPT also misread an accounting firm's price tiers and volunteered its revenue and loss."
       ],
       "risks": [
         "No proven playbook yet: tactics are guesses that change as the models change. Teach how to measure and test, not a fixed recipe.",
@@ -506,7 +509,7 @@
         "SEO has a snake-oil reputation; promising results you can't measure would hurt",
         "Knowledge goes stale even faster than AI tool tips"
       ],
-      "next": "Run the audit by hand on 5 local businesses (including friends'): ask ChatGPT, Gemini and Perplexity 10 buyer-style questions each and note who gets named. Show the owners the results and see who asks 'how do I fix this?'",
+      "next": "Turn one audit (salon C or accounting firm E) into a one-page report and show it to the owner or a small-business friend: what would they pay for it, and for a quarterly re-check? See research/ai-seo-audit.md.",
       "sources": [
         {
           "label": "Search Engine Land: generative engine optimization 2026",
