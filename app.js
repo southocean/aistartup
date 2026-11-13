@@ -48,6 +48,7 @@ function render(data) {
       <header><h3>${esc(i.name)}</h3><span class="pill ${st.cls}">${st.label}</span><span class="score">${total(i)}/${max}</span></header>
       <p class="pitch">${esc(i.pitch)}</p>
       <div class="verdict"><b>Verdict so far</b><p>${esc(i.verdict)}</p></div>
+      ${i.market && i.market.length ? `<h4>Market signals</h4><ul class="market">${i.market.map(m => `<li>${esc(m)}</li>`).join("")}</ul>` : ""}
       <div class="cols">
         <div><h4>Your edge</h4>${list(i.edge)}</div>
         <div><h4>Risks</h4>${list(i.risks)}</div>

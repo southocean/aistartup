@@ -56,7 +56,8 @@ table.board { border-collapse: collapse; width: 100%; font-size: 14px; }
 .verdict, .next { background: var(--accent-soft); border-radius: 8px; padding: 10px 14px; margin: 10px 0; }
 .verdict p, .next p { margin: 4px 0 0; }
 .cols { display: grid; grid-template-columns: 1fr 1fr; gap: 20px; }
-.cols ul, .src { margin: 0; padding-left: 20px; }
+.cols ul, .src, .market { margin: 0; padding-left: 20px; }
+.market li { margin-bottom: 4px; }
 .comps { display: grid; gap: 8px; }
 .comp { border: 1px solid var(--line); border-radius: 8px; padding: 10px 14px; }
 .comp .who { display: block; font-size: 14px; }
