@@ -373,6 +373,88 @@
       ],
       "next": "Pick one platform and one format. Post the drill-beat wedding cut story as the first test.",
       "sources": []
+    },
+    {
+      "id": "brf-rules",
+      "name": "\"Am I allowed?\" assistant for co-op apartments",
+      "pitch": "Upload or pick your bostadsrättsförening's bylaws and renovation rules. Describe what you want to do (new bathroom, move a wall, change pipes) and get what you can do yourself, what needs board approval, what needs a certified pro, and a ready-to-send application.",
+      "stage": 1,
+      "status": "promising",
+      "scores": {
+        "pain": 4,
+        "payer": 3,
+        "edge": 3,
+        "room": 4,
+        "speed": 3,
+        "fit": 4
+      },
+      "verdict": "A real Swedish pain with no obvious owner after a first search. The 2023 change to the bostadsrättslag made more work need board consent, and renovating without it can mean restoring the apartment or even losing it. Rules differ per association, which is exactly what an AI reading your own documents handles well. Main open question: who pays, the member once per renovation, or the association or its manager to cut board workload?",
+      "edge": [
+        "Swedish, and you live in a bostadsrätt yourself (you've just dealt with a board over subletting)",
+        "Builds on the home-repair research: Elsäkerhetsverket and wet-room rules feed the 'needs a pro' answers",
+        "Bylaws and renovation guidelines are often public on each association's website, so documents are easy to get for a demo"
+      ],
+      "competitors": [
+        {
+          "tier": "Co-op apps",
+          "who": "Boappa (owned by SBAB), HSB and Riksbyggen member portals",
+          "note": "Communication, booking, fault reports and documents. No sign of an AI that interprets the rules or drafts the renovation application, but Boappa could add one, and it already sits inside many associations."
+        },
+        {
+          "tier": "Free advice",
+          "who": "Lawline Q&A, Bostadsrätterna, HSB guidelines, boio.se guides",
+          "note": "General answers about the law, not your association's specific rules."
+        },
+        {
+          "tier": "Property managers",
+          "who": "HSB, Riksbyggen, SBC, Nabo and similar",
+          "note": "Handle applications for many associations today; a possible customer or a channel rather than only a competitor."
+        }
+      ],
+      "pricing": "",
+      "risks": [
+        "Boappa or the big managers add this as a feature",
+        "Legal-advice liability if the answer is wrong and the member renovates without consent",
+        "A once-per-renovation need: consumers rarely come back, so a B2B channel (associations, managers) may matter more",
+        "Getting each association's documents is manual unless the board or manager provides them"
+      ],
+      "next": "Collect bylaws and renovation guidelines from 10 associations (many are public), check how much they actually differ, then ask 3 board members how many renovation questions they handle per year and how long each takes.",
+      "market": [
+        "Since 1 Jan 2023 the bostadsrättslag lists more measures that need board consent, including work on load-bearing structures.",
+        "The board can refuse only if the work causes 'påtaglig skada eller olägenhet' and can attach conditions. Members can appeal to Hyresnämnden.",
+        "Starting without consent can mean having to restore the apartment, and renovating despite a refusal can lead to losing the right to the apartment.",
+        "A municipal building permit does not replace board consent."
+      ],
+      "sources": [
+        {
+          "label": "Fastighetsägarna: when board consent is needed",
+          "url": "https://www.mynewsdesk.com/se/fastighetsagarna-service/pressreleases/ombyggnation-i-bostadsraett-viktigt-att-kaenna-till-naer-styrelsens-tillstaand-kraevs-3387826"
+        },
+        {
+          "label": "Lawline: when the board can refuse a renovation",
+          "url": "https://lawline.se/answers/nar-kan-styrelsen-i-en-bostadsrattsforening-vagra-tillstand-for-renovering"
+        },
+        {
+          "label": "Dagens PS: renovating can cost you the apartment",
+          "url": "https://www.dagensps.se/privatekonomi/stora-konsekvenser-for-den-som-renoverar-kan-forlora-bostaden"
+        },
+        {
+          "label": "HSB: renovation guideline template",
+          "url": "https://www.hsb.se/contentassets/075c16f246f94492a312b25f54f9b789/riktlinje-renoveringar.docx"
+        },
+        {
+          "label": "Boappa: board startup guide",
+          "url": "https://boappa.se/documents/boappa_digital_uppstartsguide_styrelsen.pdf"
+        },
+        {
+          "label": "Hemnet: Boappa, part of SBAB",
+          "url": "https://www.hemnet.se/artiklar/guider/2022/05/06/slipp-brf-nytt-pa-hallgolvet"
+        },
+        {
+          "label": "boio.se: renovating your home",
+          "url": "https://boio.se/guide/renovera-bostad"
+        }
+      ]
     }
   ]
 }
