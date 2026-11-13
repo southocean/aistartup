@@ -455,6 +455,186 @@
           "url": "https://boio.se/guide/renovera-bostad"
         }
       ]
+    },
+    {
+      "id": "ai-seo",
+      "name": "AI SEO: getting found by ChatGPT, not just Google",
+      "pitch": "Courses and audits that teach small businesses and marketers how to show up in AI answers (ChatGPT, Gemini, Perplexity, Google AI Overviews), also called GEO, generative engine optimization.",
+      "stage": 1,
+      "status": "promising",
+      "scores": {
+        "pain": 4,
+        "payer": 3,
+        "edge": 2,
+        "room": 2,
+        "speed": 4,
+        "fit": 4
+      },
+      "verdict": "The pain is real and measurable: where Google shows an AI summary, clicks to websites drop by roughly 35-60% depending on the study. But English-language GEO courses are already everywhere, from free ones to about $300, and tracking tools start at about $25/month. The field is also young: nobody can yet prove which tactics work, so a course risks selling guesses. The gap after a first search is local: no Swedish-language course or hands-on offer for small Swedish firms turned up. The strongest form may be a fixed-price 'what does ChatGPT say about your business?' audit, sold as an add-on to the AI adoption workshop, with a course built later from what the audits teach.",
+      "edge": [
+        "Swedish, for a local market the English courses don't serve",
+        "Pairs naturally with the AI adoption idea: same buyers, same first meeting",
+        "You build sites and already think about how crawlers read them (the robots.txt setup for this repo is the same knowledge, used the other way round)"
+      ],
+      "competitors": [
+        {
+          "tier": "Online courses",
+          "who": "Coursera (AI SEO: Mastering GEO), many Udemy courses, Trust Insights Academy, Search Engine Land/SMX master classes, BrightonSEO",
+          "note": "Roughly $67-300 per course, plus free ones (GEO Academy, FreeAcademy.ai, a free Udemy course). Almost all in English, a few in German."
+        },
+        {
+          "tier": "Tracking tools",
+          "who": "Profound, Otterly.ai, Peec AI, Rankscale, Airefs, RankAI",
+          "note": "Monitor how often a brand is named in AI answers. Entry plans about $20-50/month, Profound is enterprise-priced. They sell the measurement; a course or audit sells the 'what now'."
+        },
+        {
+          "tier": "SEO agencies",
+          "who": "Existing Swedish SEO and digital agencies adding 'AI search' to their offer",
+          "note": "Have the clients already. The likely biggest competitor locally, and also a possible buyer of training."
+        }
+      ],
+      "pricing": "GEO courses: $67-300 for paid online ones, many free. Tracking tools: about $25/month (Otterly) up to $500+/month (Peec AI's top plan, Profound). Prices come from vendor and comparison blogs, so check before relying on them.",
+      "market": [
+        "A randomized 2026 study (Agarwal & Sen, not yet peer reviewed) found AI Overviews cut outbound clicks by 39.8%.",
+        "Ahrefs (Feb 2026): the top-ranked page gets 58% fewer clicks on keywords that show an AI Overview.",
+        "Chartbeat publisher data, as reported: Google search referrals down about 40% year on year (Jul 2025 to Jul 2026).",
+        "Counter-signal: one study (Amsive) found branded searches with an AI Overview get more clicks, not fewer. Being the named brand matters more than ranking."
+      ],
+      "risks": [
+        "No proven playbook yet: tactics are guesses that change as the models change. Teach how to measure and test, not a fixed recipe.",
+        "Crowded and cheap in English, so only the Swedish/local angle has room",
+        "SEO has a snake-oil reputation; promising results you can't measure would hurt",
+        "Knowledge goes stale even faster than AI tool tips"
+      ],
+      "next": "Run the audit by hand on 5 local businesses (including friends'): ask ChatGPT, Gemini and Perplexity 10 buyer-style questions each and note who gets named. Show the owners the results and see who asks 'how do I fix this?'",
+      "sources": [
+        {
+          "label": "Search Engine Land: generative engine optimization 2026",
+          "url": "https://searchengineland.com/generative-engine-optimization-2026"
+        },
+        {
+          "label": "Coursera: AI SEO, Mastering GEO",
+          "url": "https://www.coursera.org/learn/seo-mastering-generative-engine-optimization-geo"
+        },
+        {
+          "label": "Trust Insights Academy: GEO Power Pack",
+          "url": "https://academy.trustinsights.ai/bundles/geo-power-pack"
+        },
+        {
+          "label": "BrightonSEO: GEO course",
+          "url": "https://brightonseo.com/courses/generative-engine-optimization-geo"
+        },
+        {
+          "label": "Free GEO courses roundup (2026)",
+          "url": "https://freeacademy.ai/blog/best-free-geo-courses"
+        },
+        {
+          "label": "Superlines: AI visibility tools compared (2026)",
+          "url": "https://www.superlines.io/articles/best-ai-visibility-tools"
+        },
+        {
+          "label": "Profound vs Otterly (2026)",
+          "url": "https://inblog.ai/blog/profound-vs-otterly-enterprise-or-budget-geo-tool-in-2026"
+        },
+        {
+          "label": "PPC Land: randomized study, AI Overviews cut clicks 39.8%",
+          "url": "https://ppc.land/researchers-find-google-ai-overviews-cut-publisher-clicks-39-8/"
+        },
+        {
+          "label": "Ahrefs study summary: top result CTR down 58%",
+          "url": "https://seoworth.it.com/news/ahrefs-ai-overviews-ctr-study/"
+        },
+        {
+          "label": "Chartbeat data on publisher referrals",
+          "url": "https://letsdatascience.com/news/googles-ai-search-features-cut-publisher-traffic-data-from-s-d1c19012"
+        },
+        {
+          "label": "Press Gazette: Authoritas report on AI Overviews",
+          "url": "https://pressgazette.co.uk/publishers/digital-journalism/google-ai-overviews-publishers-report-clickthroughs-authoritas-report/"
+        }
+      ]
+    },
+    {
+      "id": "news-comedy",
+      "name": "Niche news, summarized and made funny",
+      "pitch": "AI does the reading and summarizing; you add the angle and the jokes. A short daily or weekly digest of news for one specific audience, written like a stand-up set rather than a briefing.",
+      "stage": 1,
+      "status": "promising",
+      "scores": {
+        "pain": 2,
+        "payer": 2,
+        "edge": 3,
+        "room": 2,
+        "speed": 3,
+        "fit": 4
+      },
+      "verdict": "Plain news summaries are a dead end: AI summaries are now free inside Google, Apple, Perplexity and every news app. What AI can't do well yet is be funny with a point of view, so the value is the voice, and the summarizing is just the cheap back end. That makes it a writing project first and a business second: money comes from ads and paid tiers once there's an audience, usually after many months. The niche question decides everything. Candidates: Swedish news explained with jokes for internationals and the Vietnamese community; a single beat (AI industry, Stockholm tech, Vietnam) done as satire; or the week's news as a short stand-up video. Best treated as an enabler that feeds the comedy workshop and build-in-public, unless one niche shows it can pay.",
+      "edge": [
+        "The comedy workshop: you're already practising writing jokes and have a method for it",
+        "Swedish and Vietnamese: you can explain one culture's news to the other, a niche few can cover",
+        "Comfortable automating the boring half (collect, summarize, rank stories) with AI"
+      ],
+      "competitors": [
+        {
+          "tier": "Big newsletters",
+          "who": "Morning Brew, The Skimm, Axios, Semafor",
+          "note": "Witty general news briefings with large teams. Not worth competing with head-on."
+        },
+        {
+          "tier": "Free AI summaries",
+          "who": "Google AI Overviews, Apple Intelligence notification summaries, Perplexity Discover, Particle and similar news apps",
+          "note": "Make 'just a summary' worth zero. The reason the product has to be the voice."
+        },
+        {
+          "tier": "Satire",
+          "who": "The Onion, late-night TV clips, and a long tail of small AI-made satire newsletters (TheDailyPoop, We Interrupt This Reality, Koo AI)",
+          "note": "The small AI satire projects show low traction: the jokes feel generated. A human comic voice is the gap."
+        },
+        {
+          "tier": "News for internationals in Sweden",
+          "who": "The Local Sweden (paid membership), SVT/SR news in English and easy Swedish",
+          "note": "Serves the 'Sweden explained' niche straight, not funny. Nothing obvious in Vietnamese."
+        }
+      ],
+      "pricing": "Newsletter platforms report paid subscriptions growing fast, driven by niche writers (beehiiv: $19M paid revenue in 2025, up from $8M; self-reported). A common rule of thumb is that 2-5% of a free list converts to a paid tier of about $5-10/month, so 10,000 free readers is roughly 200-500 paying. Ads and sponsorships usually matter more early on.",
+      "market": [
+        "Generalist newsletters face heavy competition; platforms say growth is in narrow niches with a clear audience.",
+        "Many small AI-made satire and digest newsletters exist, but none in the search showed real traction, which suggests generated humour alone doesn't hold readers."
+      ],
+      "risks": [
+        "Slow money: an audience first, revenue months or years later",
+        "Daily output is a treadmill; weekly is more realistic next to a job and the Vietnam stint",
+        "Comedy about news can offend, and some niches (politics, the diaspora) are sensitive",
+        "AI writing jokes will get better, so the human voice must be genuinely distinct",
+        "Exposure while still employed (same as build in public)"
+      ],
+      "next": "Pick one niche and write four weekly issues by hand (AI for gathering and summarizing, you for the jokes). Send them to 20 people from the right audience and count how many open the third and fourth, and how many forward one.",
+      "sources": [
+        {
+          "label": "beehiiv: the state of newsletters 2026",
+          "url": "https://www.beehiiv.com/blog/beehiiv-the-state-of-newsletters-2026"
+        },
+        {
+          "label": "beehiiv: the state of paid newsletters 2026",
+          "url": "https://www.beehiiv.com/blog/the-state-of-paid-newsletters-2026.md"
+        },
+        {
+          "label": "Letter Operators: paid newsletter revenue is climbing fast",
+          "url": "https://letteroperators.beehiiv.com/p/paid-newsletter-revenue-is-climbing-fast"
+        },
+        {
+          "label": "TheDailyPoop (Product Hunt)",
+          "url": "https://www.producthunt.com/products/thedailypoop/reviews?page=2"
+        },
+        {
+          "label": "We Interrupt This Reality (satire newsletter)",
+          "url": "https://weinterruptthisreality.substack.com/about"
+        },
+        {
+          "label": "Koo AI (comedic AI newsletter)",
+          "url": "https://koonai.substack.com/about"
+        }
+      ]
     }
   ]
 }
