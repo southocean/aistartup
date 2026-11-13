@@ -18,8 +18,8 @@ What's in place:
 The limits:
 - **Crawlers only read `robots.txt` at the root of a host.** On `southocean.github.io/aistartup/`, the root is
   `southocean.github.io/robots.txt`, which comes from a separate repo, `southocean/southocean.github.io`
-  (it doesn't exist yet). To make robots.txt actually work, that repo needs a root robots.txt with
-  `Disallow: /aistartup/`, which leaves the other sites (callback, etc.) indexable.
+  (local copy: `C:\projects\work\southocean.github.io`, created 13 Nov 2026). It blocks only `/aistartup/`,
+  so the other sites (callback, etc.) stay indexable. The robots.txt in this repo is kept as documentation.
 - robots.txt and meta tags are **requests, not locks**. Reputable crawlers comply; scrapers may not.
 - **A public repo is public**: anyone can read it on github.com, and GitHub's own pages for the repo can be
   indexed regardless of the site's tags. For truly private notes, keep the repo private
